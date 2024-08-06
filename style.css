@@ -54,3 +54,63 @@ footer {
     width: 100%;
     bottom: 0;
 }
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Agronomia</title>
+    <!-- Importação da fonte do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Mundo da Agronomia</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>O que é Agronomia?</h2>
+        <p>A Agronomia é a ciência que estuda a produção agrícola e as técnicas para melhorar a qualidade e a quantidade das culturas. Envolve conhecimentos sobre solos, plantas, técnicas de cultivo e gestão de recursos naturais.</p>
+        <img src="agronomia.jpg" alt="Cultivo de Plantas">
+    </section>
+    
+    <section id="services">
+        <h2>Serviços Oferecidos</h2>
+        <ul>
+            <li>Análise de Solo</li>
+            <li>Consultoria em Cultivos</li>
+            <li>Gestão de Recursos Naturais</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Para mais informações, entre em contato conosco:</p>
+        <address>
+            <p>Email: <a href="mailto:contato@agronomia.com">contato@agronomia.com</a></p>
+            <p>Telefone: +55 11 1234-5678</p>
+        </address>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Site de Agronomia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
